@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loja Cechinelos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1>Loja Cechinelos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Home -->
+    <section id="home">
+        <div class="hero">
+            <h2>Chinelos confortáveis para o seu dia a dia!</h2>
+            <p>Seu pezinho aqui vale muito.</p>
+            <a href="#produtos" class="btn">Confira os Produtos</a>
+        </div>
+    </section>
+
+    <!-- Seção Produtos -->
+    <section id="produtos">
+        <h2>Produtos</h2>
+        <div class="produtos-container">
+            <div class="produto">
+                <img src="https://2.bp.blogspot.com/-ZG_8OsFvus4/UJvTBMom44I/AAAAAAAAnQw/P4C36-xVEiQ/s1600/Chinelos-jeans-bem-legaus-2.jpg" alt="Chinelo Casual">
+                <h3>Chinelo Casual</h3>
+                <p>R$39,99</p>
+                <button class="comprar" data-produto="Chinelo Casual - R$39,99">Comprar</button>
+            </div>
+            <div class="produto">
+                <img src="https://down-br.img.susercontent.com/file/2ef115f2140c893e18ecdd3ecb0a6cc4_tn.webp" alt="Chinelo Caraguatatuba">
+                <h3>Chinelo Beach</h3>
+                <p>R$49,99</p>
+                <button class="comprar" data-produto="Chinelo Caraguatatuba - R$49,99">Comprar</button>
+            </div>
+            <div class="produto">
+                <img src="https://i.pinimg.com/236x/0e/aa/0f/0eaa0ffb4c157ba5be79a4a8c1e7512f.jpg" alt="Chinelo Peixota">
+                <h3>Chinelo Relax</h3>
+                <p>R$59,99</p>
+                <button class="comprar" data-produto="Chinelo Peixota - R$59,99">Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form id="form-contato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Loja de Chinelos. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

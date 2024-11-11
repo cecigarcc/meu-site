@@ -1,0 +1,212 @@
+/* Resetando estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: hwb(0 5% 16%);
+}
+
+/* Cabeçalho */
+header {
+    background-color: #fad013;
+    color: rgb(17, 5, 133);
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 30px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seção Home */
+#home {
+    background-image: url('https://via.placeholder.com/1600x600/333333/ffffff?text=Bem-vindo+à+Loja+de+Chinelos');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+#home .hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#home .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+#home .btn {
+    background-color: #a02317;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#home .btn:hover {
+    background-color: #f11919;
+}
+
+/* Seção Produtos */
+#produtos {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#produtos h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.produtos-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.produto {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.produto:hover {
+    transform: translateY(-10px);
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.produto h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.produto p {
+    font-size: 1.2rem;
+    color: hsl(133, 84%, 22%);
+    margin-bottom: 20px;
+}
+
+.produto button {
+    background-color: #33ad15;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.produto button:hover {
+    background-color: hsl(123, 75%, 29%);
+}
+
+/* Seção Contato */
+#contato {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#contato h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: #e05d53;
+}
+
+/* Rodapé */
+footer {
+    background-color: hsl(219, 64%, 55%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
